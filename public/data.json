@@ -10,11 +10,11 @@
             "outdoor": {
                 "title": "Outdoor Experience",
                 "text": "It’s windy. The cool breeze of the ocean. It gives, a sense of beauty, in motion. All is flowing, rushing and tide-And I sit in wonder, dreaming beside.",
-                "main_image": "../src/images/moutians_main.png",
+                "main_image": "./images/moutians_main.png",
                 "secondary_images": {
-                    "image1": "../src/images/outdoor_secondary1.png",
-                    "image2": "../src/images/outdoor_secondary2.png",
-                    "image3": "../src/images/outdoor_secondary3.png"
+                    "image1": "./images/outdoor_secondary1.png",
+                    "image2": "./images/outdoor_secondary2.png",
+                    "image3": "./images/outdoor_secondary3.png"
                 },
                 "button_text": "leisure"
             }
@@ -24,22 +24,22 @@
                 "delivery": {
                     "title": "on-time delivery",
                     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
-                    "icon": "../src/images/delivery_icon.png"
+                    "icon": "./images/delivery_icon.png"
                 },
                 "parcels": {
                     "title": "parcels",
                     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
-                    "icon": "../src/images/parcels_icon.png"
+                    "icon": "./images/parcels_icon.png"
                 },
                 "quality": {
                     "title": "quality check",
                     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
-                    "icon": "../src/images/quality_icon.png"
+                    "icon": "./images/quality_icon.png"
                 },
                 "customer": {
                     "title": "customer service",
                     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit",
-                    "icon": "../src/images/customer_service.png"
+                    "icon": "./images/customer_service.png"
                 }
             }
         ],
@@ -49,30 +49,30 @@
                     "title": "Off-the-grid experiences",
                     "author": "By: Melanie S.",
                     "collection": "collection #10",
-                    "background_image": "../src/images/off_grid_background.png",
-                    "profile_image": "../src/images/off_grid_profile.png"
+                    "background_image": "./images/off_grid_background.png",
+                    "profile_image": "./images/off_grid_profile.png"
                 },
                 "collection2":{
                     "title": "Shapes, triangles & fashion",
                     "author": "By: Saraha F.",
                     "collection": "collection #1",
-                    "background_image": "../src/images/shapes_background.png",
-                    "profile_image": "../src/images/shapes_profile.png"
+                    "background_image": "./images/shapes_background.png",
+                    "profile_image": "./images/shapes_profile.png"
                 },
                 "collection3":{
                     "title": "In-depth architecture",
                     "author": "By: Benhour",
                     "collection": "collection #123",
-                    "background_image": "../src/images/in_depth_background.png",
-                    "profile_image": "../src/images/in_depth_profile.png"
+                    "background_image": "./images/in_depth_background.png",
+                    "profile_image": "./images/in_depth_profile.png"
                 }
             }
         ],
             "must_see_places":{
-                "background": "../src/images/must_see_backround.png",
+                "background": "./images/must_see_backround.png",
                 "title": "Must see places for summer",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam diam sit amet elit hendrerit rutrum. Nam",
-                "logo": "../src/images/new_york_times_logo.png",
+                "logo": "./images/new_york_times_logo.png",
                 "logo_text": "the new york times"
             },
             "latest_news": [
@@ -80,29 +80,30 @@
                     "nature": {
                         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
                         "title": "nature",
-                        "image": "../src/images/nature.png"
+                        "image": "./images/nature.png"
                     },
                     "animal": {
                         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
                         "title": "animal kingdom",
-                        "image": "../src/images/animal_kingdom_image.png"
+                        "image": "./images/animal_kingdom_image.png"
                     },
                     "technology": {
                         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
                         "title": "technology",
-                        "image": "../src/images/technology_image.png"
+                        "image": "./images/technology_image.png"
                     },
                     "explore": {
                         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
                         "title": "explore",
-                        "image": "../src/images/explore_image.png"
+                        "image": "./images/explore_image.png"
                     },
                     "zoo": {
                         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam",
                         "title": "african zoo",
-                        "image": "../src/images/zoo_image.png"
+                        "image": "./images/zoo_image.png"
                     }
                 }
             ]
+            
     }
 ]
