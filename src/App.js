@@ -1,7 +1,7 @@
   
 import './App.css';
 import React, { useEffect, useState } from "react";
-//import Surfing from './components/Surfing';
+import Collections from './components/Collections';
 
 function App() {
   var [results, setResult] = useState([])
@@ -13,16 +13,16 @@ function App() {
     })
     .then(function(data){
       setResult(data)
+      console.log(data);
     })
   }, [])
 
 	return (
-    null
-    // <div className="App">
-    //     {results.map(function(result) {
-		// 			return <Surfing result={result.surfing}/>
-		// 		})}
-    // </div>
+    <div className="App">
+        {results.map(function(result) {
+					return <Collections result={result.collections[0]}/>
+				})}
+    </div>
   )
 }
 
