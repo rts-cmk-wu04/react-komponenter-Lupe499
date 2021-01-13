@@ -1,0 +1,55 @@
+
+.collectionCard{
+    max-width: 372px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+}
+.textDiv{
+    padding: 0 30px;
+    grid-area: 4/1/5/2;
+    align-self: flex-start;
+}
+.category{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 11px;
+    font-weight: 900;
+    color: #33439B;
+}
+.title{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #303336;
+}
+.text{
+    text-align: center;
+    font-size: 16px;
+    color: #7B8591;
+    line-height: 22px;
+}
+.backgroundImage{
+    grid-area: 1/1/2/2;
+}
+.profileImage{
+    grid-area: 3/1/4/2;
+    z-index: 1;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.collection{
+    z-index: 2;
+    grid-area: 1/1/2/2;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+.collectionSection{
+    display: flex;
+}
