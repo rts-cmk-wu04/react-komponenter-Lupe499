@@ -1,0 +1,59 @@
+.outdoorCard{
+    max-width: 771px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.outdoorCard img{
+    height: auto;
+    padding: 20px 0;
+    margin-left: 20px;
+}
+.outdoorImage{
+    border-radius: 5px 5px 0 0;
+}
+.outdoorTextDiv{
+    padding: 30px;
+    display: grid;
+}
+.category{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 11px;
+    font-weight: 900;
+    color: #33439B;
+}
+.outdoorTitle{
+    font-size: 29px;
+    font-weight: bold;
+    color: #303336;
+}
+.outdoorText{
+    font-size: 16px;
+    color: #7B8591;
+    line-height: 22px;
+}
+button{
+    justify-self: right;
+    background-color: #005AEE;
+    border: none;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    width: 99px;
+    height: 33px;
+}
+.imageDiv{
+    justify-self: center;
+}
+.imageDiv img{
+    margin: 0 10px;
+}
+.textCentering{
+    margin-left: 10px;
+    max-width: 300px;
+}

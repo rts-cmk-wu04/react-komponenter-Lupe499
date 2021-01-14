@@ -1,0 +1,42 @@
+.deliveryContainer{
+    display: flex;
+}
+
+.deliveryCard{
+    max-width: 270px;
+    margin: 0 20px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: grid;
+}
+
+.deliveryImage{
+    height: auto;
+    justify-self: flex-end;
+    padding: 25px 25px 0 0;
+}
+.deliveryTextDiv{
+    justify-self: center;
+    margin: 25px;
+}
+.deliveryTitle{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.deliveryText{
+    font-size: 16px;
+}
+.blue{
+ background-color: #005AEE;
+}
+.orange{
+ background-color: #FFA767;
+}
+.turquoise{
+background-color: #0AACDC;
+}
+.light-blue{
+background-color: #597AEF;
+}
