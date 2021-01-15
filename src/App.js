@@ -26,14 +26,18 @@ function App() {
     <div className="App">
         {results.map(function(result) {
 					return (
-            <>
-              <Collections result={result.collections[0]}/>
-              <Delivery result={result.deliveries[0]}/>
-              <Outdoor result={result.outdoor}/>
+            <div className="wrapper">
+            <section className="topSection">
               <Surfing result={result.surfing}/>
-              <Summer result={result.must_see_places}/>
-              <News result={result.latest_news[0]}/>
-          </>
+              <Outdoor result={result.outdoor}/>
+            </section>
+              <Delivery result={result.deliveries[0]}/>
+              <Collections result={result.collections[0]}/>
+              <section className="newsSection">
+                <Summer result={result.must_see_places}/>
+                <News result={result.latest_news[0]}/>
+              </section>
+          </div>
           )
 				})}
     </div>

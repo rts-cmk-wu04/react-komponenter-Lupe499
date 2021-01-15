@@ -1,3 +1,20 @@
 body{
-  background-color: #303336;
+  background-color: #EAEAEA;
+}
+.topSection{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 470px;
+  justify-items: flex-start;
+  grid-column-gap: 5%;
+  margin-bottom: 2em;
+}
+.wrapper{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.newsSection{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 5%;
 }
