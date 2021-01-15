@@ -6,6 +6,7 @@ import Delivery from './components/Delivery';
 import Outdoor from './components/Outdoor';
 import Surfing from './components/Surfing';
 import Summer from './components/Summer';
+import News from './components/News';
 
 function App() {
   var [results, setResult] = useState([])
@@ -31,6 +32,7 @@ function App() {
               <Outdoor result={result.outdoor}/>
               <Surfing result={result.surfing}/>
               <Summer result={result.must_see_places}/>
+              <News result={result.latest_news[0]}/>
           </>
           )
 				})}
