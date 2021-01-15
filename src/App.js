@@ -5,6 +5,7 @@ import Collections from './components/Collections';
 import Delivery from './components/Delivery';
 import Outdoor from './components/Outdoor';
 import Surfing from './components/Surfing';
+import Summer from './components/Summer';
 
 function App() {
   var [results, setResult] = useState([])
@@ -29,6 +30,7 @@ function App() {
               <Delivery result={result.deliveries[0]}/>
               <Outdoor result={result.outdoor}/>
               <Surfing result={result.surfing}/>
+              <Summer result={result.must_see_places}/>
           </>
           )
 				})}

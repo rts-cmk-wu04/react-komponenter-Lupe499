@@ -1,0 +1,54 @@
+.summerCard{
+    max-width: 771px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+.summerImage{
+    grid-area: 1/1/2/2;
+}
+.summerTextDiv{
+    grid-area: 1/1/2/2;
+    color: white;
+    align-self: flex-end;
+    margin: 0 0 15px 30px;
+}
+.summerTitle{
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+.summerText{
+    font-size: 16px;
+    line-height: 25px;
+}
+.logoDiv{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-area: 1/1/2/4;
+}
+.logoDiv p, i{
+    display: inline;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.logoDiv i{
+    justify-self: flex-end;
+    margin: 40px 40px 0 0;
+    font-size: 18px;
+}
+.logoDiv p{
+    margin: 40px 0 0 50px;
+    font-size: 11px;
+}
+.logoDiv img{
+    margin: 35px 0 0 20px;
+}
+.logoDiv p, i, img{
+    grid-area: 1/1/2/2;
+}
